@@ -5,7 +5,7 @@ import org.gradle.api.artifacts.repositories.MavenArtifactRepository
 
 object Publishing {
     const val GROUP = "com.yelp.android"
-    const val VERSION = "18.0.2"
+    const val VERSION = "18.1.0-SNAPSHOT"
 }
 
 object Versions {
@@ -21,6 +21,7 @@ object Versions {
     const val ANDROID_X_MATERIAL = "1.0.0"
     const val ANDROID_X_RECYCLER_VIEW = "1.0.0"
     const val ANDROID_X_TEST = "1.1.0"
+    const val COROUTINES = "1.4.0"
     const val ESPRESSO = "3.1.0"
     const val GRADLE = "6.9"
     const val GUAVA = "28.1-android"
@@ -41,6 +42,7 @@ object BuildScriptLibs {
 
 object Libs {
     const val APACHE_COMMONS = "org.apache.commons:commons-lang3:${Versions.APACHE_COMMONS}"
+    const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.COROUTINES}"
     const val GUAVA = "com.google.guava:guava:${Versions.GUAVA}"
     const val KOTLIN = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.KOTLIN}"
     const val KOTLIN_REFLECT = "org.jetbrains.kotlin:kotlin-reflect:${Versions.KOTLIN}"
